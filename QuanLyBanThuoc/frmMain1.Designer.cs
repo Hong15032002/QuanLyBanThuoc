@@ -59,6 +59,7 @@ namespace QuanLyBanThuoc
             // 
             // menuStrip1
             // 
+            this.menuStrip1.BackColor = System.Drawing.Color.Red;
             this.menuStrip1.BackgroundImage = global::QuanLyBanThuoc.Properties.Resources.Thiết_kế_chưa_có_tên_2;
             this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
@@ -70,7 +71,7 @@ namespace QuanLyBanThuoc
             this.hỗTrợToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1924, 34);
+            this.menuStrip1.Size = new System.Drawing.Size(1924, 32);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -259,7 +260,7 @@ namespace QuanLyBanThuoc
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Tomato;
-            this.BackgroundImage = global::QuanLyBanThuoc.Properties.Resources.pngtree_medical_medicine_business_poster_background_picture_image_1546924;
+            this.BackgroundImage = global::QuanLyBanThuoc.Properties.Resources.Sống_khỏe_đẹp_mỗi_ngày1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1924, 1037);
             this.Controls.Add(this.menuStrip1);
