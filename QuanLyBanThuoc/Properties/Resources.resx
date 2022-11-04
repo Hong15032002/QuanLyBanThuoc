@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="trash_bin_icon-icons.com_67981" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trash_bin_icon-icons.com_67981.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thêm nội dung thân văn bản" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thêm nội dung thân văn bản.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngtree-medical-medicine-business-poster-background-picture-image_154692" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-medical-medicine-business-poster-background-picture-image_154692.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngtree-medical-medicine-business-poster-background-picture-image_1546921" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-medical-medicine-business-poster-background-picture-image_1546921.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4014703-driver-mobile-phone-repair-screw-service-wrench_112878" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4014703-driver-mobile-phone-repair-screw-service-wrench_112878.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="d1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\d1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edit_icon-icons.com_66118" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\edit_icon-icons.com_66118.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1458264589_question_quiz_feedback_comments_enquiry_help_support_icon-icons.com_55335" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1458264589_question_quiz_feedback_comments_enquiry_help_support_icon-icons.com_55335.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Filter_icon-icons.com_52097" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Filter_icon-icons.com_52097.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delete_delete_exit_1577" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete_delete_exit_1577.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="xmag_search_find_export_locate_5984" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xmag_search_find_export_locate_5984.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sống khỏe đẹp mỗi ngày" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sống khỏe đẹp mỗi ngày.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ff (1) (1) (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ff (1) (1) (1)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BG14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BG14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="potion_pills_drugs_icon_182919" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\potion_pills_drugs_icon_182919.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BG1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BG1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="first_arrow_left_icon_1419612" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\first_arrow_left_icon_1419611.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Save_37110" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Save_37110.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lasttrackoutlinedbutton_81084" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lasttrackoutlinedbutton_81084.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="-last-page_89818" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\-last-page_89818.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1458264589_question_quiz_feedback_comments_enquiry_help_support_icon-icons1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1458264589_question_quiz_feedback_comments_enquiry_help_support_icon-icons.com_553351.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="expired-48_45730" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\expired-48_45730.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="d12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\d12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="actions_document_print_15785" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\actions_document_print_15785.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="content_management_icon_161212" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\content_management_icon_161212.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ff (1) (1) (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ff (1) (1) (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Login_371281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Login_371281.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3741756-bussiness-ecommerce-marketplace-onlinestore-store-user_108907" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3741756-bussiness-ecommerce-marketplace-onlinestore-store-user_108907.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delete_delete_exit_15773" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete_delete_exit_15773.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shutdown_off_close_exit_15253" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shutdown_off_close_exit_15253.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edit_add_10261" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\edit_add_10261.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="first_arrow_left_icon_1419611" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\first_arrow_left_icon_141961.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="actions_document_print_157851" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\actions_document_print_157851.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="medicine_medical_pharmacy_health_prescription_pill_drug_icon_140910" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\medicine_medical_pharmacy_health_prescription_pill_drug_icon_140910.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thiết kế chưa có tên 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thiết kế chưa có tên 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="potion_pills_drugs_icon_1829191" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\potion_pills_drugs_icon_182919.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngtree-medical-medicine-business-poster-background-picture-image_1546924" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-medical-medicine-business-poster-background-picture-image_1546924.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="d11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\d11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BG15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BG15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Login_37128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Login_37128.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="add_icon-icons.com_74429" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add_icon-icons.com_74429.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sống khỏe đẹp mỗi ngày1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sống khỏe đẹp mỗi ngày1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="reporting_noun_report_document_file_icon_148360" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\reporting_noun_report_document_file_icon_148360.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ff.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngtree-medical-medicine-business-poster-background-picture-image_1546923" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-medical-medicine-business-poster-background-picture-image_1546923.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Trống" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Trống.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="potion_pills_drugs_icon_1829192" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\potion_pills_drugs_icon_1829191.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delete_delete_exit_15774" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete_delete_exit_15774.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BG13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BG13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="first_arrow_left_icon_141961" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\first_arrow_left_icon_141961.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="home_import_outline_icon_139464" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\home_import_outline_icon_139464.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ff (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ff (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Next_arrow_15591" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Next_arrow_15591.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ff (1) (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ff (1) (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_previous_149991" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_previous_149991.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_previous_14999" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_previous_14999.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Print_icon-icons1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Print_icon-icons.com_737051.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="emblemsynchronizing_93485" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emblemsynchronizing_93485.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="emblemsynchronizing_934851" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emblemsynchronizing_934851.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="twocirclingarrows1_120592" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\twocirclingarrows1_120592.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="199888228_763735130958095_7436486396376780646_n (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\199888228_763735130958095_7436486396376780646_n (2).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delete_delete_exit_15771" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete_delete_exit_15771.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngtree-medical-medicine-business-poster-background-picture-image_1546925" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-medical-medicine-business-poster-background-picture-image_1546925.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delete_delete_exit_15772" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete_delete_exit_15772.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Print_icon-icons.com_73705" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Print_icon-icons.com_73705.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buy_13374" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buy_13374.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Next_arrow_1559" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Next_arrow_1559.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="save_file_disk_open_searsh_loading_clipboard_1513" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\save_file_disk_open_searsh_loading_clipboard_1513.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BG12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BG12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BG11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BG11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngtree-medical-medicine-business-poster-background-picture-image_1546922" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-medical-medicine-business-poster-background-picture-image_1546922.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BG16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BG16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
